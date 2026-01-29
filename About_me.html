@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Robba Locka Entertainment</title>
+    <link rel="stylesheet" href="Style_brown.css">
+</head>
+
+<header class="navbar">
+        <div class="logo">Robba Locka<span> <em>Entertainment</em></span></div>
+            <nav>
+                <a href="index_brown.html">Home</a>
+                <a href="About_me.html">About</a>
+                <a href="dance_projects.html">Dance portfolio</a>
+                <a href="it_projects.html">IT portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a class="btn-primary" href="https://open.spotify.com/playlist/37i9dQZF1DX4J520879081?si=25463012f0c74a8e" target="_blank">Spotify playlist</a>
+</header>
+
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>About Me</h1>
+            <p>Who is Robin Rigiani<br>Also known as Robba Locka</p>
+        </div>
+    </section>
+
+
+    <main>
+                <section class="video-hero">
+                    <video id="bgVideo" autoplay muted loop playsinline>
+                        <source src="pictures/SC pt.12 quarter.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                      <button id="soundToggle" class="sound-btn">🔇 Sound Off</button>
+
+        <div class="video-overlay">
+        <section class="biography">
+            <p>
+                <strong>Robin Rigiani</strong>, professionally known as <strong>Robba Locka</strong>, is a multidisciplinary creative,
+                performer, and entrepreneur, and the founder of <strong>Robba Locka Entertainment</strong>. With a strong foundation
+                in performance, production, and creative direction, Robin has built a career at the intersection of freestyle, entertainment,
+                culture, and choreography.
+            </p>
+
+            <p>
+                <strong>Robin</strong> graduated from <strong>Rijn IJssel</strong> in <strong>2017</strong>, where he began developing his professional
+                skillset and creative discipline. He continued his artistic education at the
+                <strong>Amsterdam University of the Arts (Amsterdamse Hogeschool voor de Kunsten)</strong>, graduating in
+                <strong>2022</strong>, further refining his craft and deepening his understanding of the creative and performing arts
+                industry.
+            </p>
+
+            <p>
+                In <strong>2020</strong>, Robin achieved a major competitive milestone by winning
+                <strong>Juste Debout Rotterdam</strong>, one of the most respected international street dance competitions. This
+                accomplishment solidified his reputation as a high-level performer and creative force within the dance and urban
+                arts community.
+            </p>
+
+            <p>
+                Beyond performance, Robin has successfully translated his artistic vision into the commercial space. Through
+                <strong>The Movers Amsterdam</strong>, he has worked with major brands, including <strong>Philips</strong>,
+                contributing creative talent, production support, and performance-driven storytelling to professional campaigns and
+                projects.
+            </p>
+
+            <p>
+                Today, Robin continues to bridge <strong>talent development</strong>, <strong>production</strong>, and <strong>brand
+                experience</strong>, focusing on creating impactful entertainment experiences that elevate both artists and clients.
+                His work is defined by authenticity, creative excellence, and a commitment to bringing talent into the spotlight.
+            </p>
+        </section>
+        </div>
+                </section>
+
+
+    <section>
+            <div>
+                <h2 class="cta-skills">Skill Set</h2>
+            </div>
+
+<section class="skills">
+  <div class="skills-grid">
+    <div class="skills-card">
+      <h3>Club & Street Styles</h3>
+      <p>Specialize in Locking, Hip hop, Popping, House and other Street & Club dance styles.</p>
+    </div>
+    <div class="skills-card">
+      <h3>Talent Development</h3>
+      <p>Developing dancers and performers through coaching, mentorship, and Freestyle.</p>
+    </div>
+    <div class="skills-card">
+      <h3>Choreography</h3>
+      <p>Creating dynamic and engaging choreography for performances, events, and commercial projects.</p>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2021 Robba Locka Entertainment. All rights reserved.</p>
+    </footer>
+
+<!--JAVA SCRIPT STUFF-->
+<script>
+  const video = document.getElementById("bgVideo");
+  const button = document.getElementById("soundToggle");
+
+  button.addEventListener("click", () => {
+    video.muted = !video.muted;
+
+    if (video.muted) {
+      button.textContent = "🔇 Sound Off";
+    } else {
+      button.textContent = "🔊 Sound On";
+    }
+  });
+</script>
+
+</body>
+
+</html>

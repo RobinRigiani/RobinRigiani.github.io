@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me - Robba Locka Entertainment</title>
+  <link href="Style_brown.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    Robba Locka <span> <em>Entertainment</em></span>
+  </div>
+
+  <nav>
+    <a href="index_brown.html">Home</a>
+    <a href="About_me.html">About</a>
+    <a href="dance_projects.html">Dance portfolio</a>
+    <a href="it_projects.html">IT portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <a class="btn-primary" 
+     href="https://open.spotify.com/playlist/37i9dQZF1DX4J520879081?si=25463012f0c74a8e"
+     target="_blank">
+     Spotify playlist
+  </a>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Contact Me</h1>
+    <p>Get in touch with Robba Locka Entertainment.</p>
+    <p>I'm looking forward to hearing from you!</p>
+  </div>
+</section>
+
+<section class="video-hero">
+  <video id="bgVideo" autoplay muted loop playsinline>
+    <source src="pictures/Registratie Congregäre.MP4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <button id="soundToggle" class="sound-btn">🔇 Sound Off</button>
+  
+  <div class="video-overlay">
+    <section class="contact-info">
+      <div>
+        <ul class="contact-list">
+          <li>
+            Email: <a class="white" href="mailto:robinrigiani@gmail.com">robinrigiani@gmail.com</a>
+          </li>
+          <li>
+            Phone: <a class="white" href="https://wa.me/31650503959" target="_blank">+31 6 50503959</a>
+          </li>
+          <li>
+            Social Media:<ul class="social-media-list">
+          <li>
+            <a class="btn-primary" href="https://twitter.com/robbalocka" target="_blank">
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a class="btn-primary" href="https://www.linkedin.com/in/robin-rigiani-2793bb258/" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="btn-primary" href="https://www.instagram.com/robba_locka/" target="_blank">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a class="btn-primary" href="https://www.instagram.com/ohmyfunkygroove/" target="_blank">
+              Oh My Funky Groove
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+          </div>
+  </section>
+</section>
+
+<footer>
+  <p>&copy; 2021 Robba Locka Entertainment. All rights reserved.</p>
+</footer>
+
+<!--JAVA SCRIPT STUFF-->
+<script>
+  const video = document.getElementById("bgVideo");
+  const button = document.getElementById("soundToggle");
+
+  button.addEventListener("click", () => {
+    video.muted = !video.muted;
+
+    if (video.muted) {
+      button.textContent = "🔇 Sound Off";
+    } else {
+      button.textContent = "🔊 Sound On";
+    }
+  });
+</script>
+
+</body>
+</html>
