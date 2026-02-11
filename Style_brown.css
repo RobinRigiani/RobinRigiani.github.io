@@ -56,11 +56,11 @@ body {
 
 /* HERO */
 .hero {
-  height: 40vh;
+  height: auto;
   background: url("pictures/Background_1.png") no-repeat center / cover;
   display: flex;
   align-items: center;
-  padding: 60px;
+  padding: 58px;
   color: var(--white);
 }
 
@@ -380,4 +380,5 @@ td, th {
 }
 
 /* ===== END MOBILE STYLES ===== */
+
 
