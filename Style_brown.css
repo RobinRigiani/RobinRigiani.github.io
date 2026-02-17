@@ -81,6 +81,7 @@ body {
   padding: 12px 25px;
   border-radius: 6px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* STATS */
@@ -384,6 +385,7 @@ td, th {
 }
 
 /* ===== END MOBILE STYLES ===== */
+
 
 
 
