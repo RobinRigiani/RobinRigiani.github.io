@@ -203,6 +203,10 @@ td, th {
   -webkit-text-stroke: 1px black; /* width and color */
 }
 
+a. {
+  text-decoration: none;
+}
+
 .white{
     color: var(--white);
 }
@@ -387,6 +391,7 @@ td, th {
 }
 
 /* ===== END MOBILE STYLES ===== */
+
 
 
 
