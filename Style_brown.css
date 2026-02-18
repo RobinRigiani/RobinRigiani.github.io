@@ -203,7 +203,7 @@ td, th {
   -webkit-text-stroke: 1px black; /* width and color */
 }
 
-a. {
+.a {
   text-decoration: none;
 }
 
@@ -391,7 +391,6 @@ a. {
 }
 
 /* ===== END MOBILE STYLES ===== */
-
 
 
 
