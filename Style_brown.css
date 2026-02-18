@@ -200,7 +200,7 @@ td, th {
 } */
 
 .themoverslink:hover{
-  -webkit-text-stroke: 1px black; /* width and color */
+  opacity: 0.75;
 }
 
 .a {
